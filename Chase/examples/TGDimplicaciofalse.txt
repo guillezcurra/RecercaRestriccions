@@ -1,0 +1,7 @@
+Persona(100)
+MenorDeEdat(100)
+MajorDeEdat(100)
+
+Persona(x), MenorDeEdat(x), MajorDeEdat(x) -> #FAIL
+
+

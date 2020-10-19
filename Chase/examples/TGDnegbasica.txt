@@ -1,0 +1,4 @@
+Persona(100)
+TeFebre(100)
+
+Persona(x), NOT(TeFebre(x)) -> PotViatjar(x)

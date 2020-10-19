@@ -1,0 +1,5 @@
+Persona(100)
+Afortunada(100)
+
+Persona(x), Afortunada(x) -> TeDiners(x), EstaCasat(x, y), EsBonaPersona(y)
+

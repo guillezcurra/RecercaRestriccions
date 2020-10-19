@@ -1,0 +1,3 @@
+Persona(100)
+
+Persona(x) -> Home(x) v Dona(x)

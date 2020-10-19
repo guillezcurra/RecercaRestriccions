@@ -1,0 +1,4 @@
+TreballaA(100,1)
+TreballaA(100,2)
+
+TreballaA(x, y), TreballaA(x, z) -> y=z

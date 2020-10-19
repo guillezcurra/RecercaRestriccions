@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Logic">
+      <UniqueIdentifier>{9fe15ccb-114a-498b-a074-ddfd4ff2adcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Logic">
+      <UniqueIdentifier>{5eb4ba56-d145-4486-9de9-c1e22e9da3c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaseAlg.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicSchemaGrammarLexer.cpp">
+      <Filter>Archivos de origen\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicSchemaGrammarBaseListener.cpp">
+      <Filter>Archivos de origen\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicSchemaGrammarListener.cpp">
+      <Filter>Archivos de origen\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicContainer.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicSchemaGrammarParser.cpp">
+      <Filter>Archivos de origen\Logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChaseAlg.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicSchemaGrammarBaseListener.h">
+      <Filter>Archivos de encabezado\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicSchemaGrammarLexer.h">
+      <Filter>Archivos de encabezado\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicSchemaGrammarListener.h">
+      <Filter>Archivos de encabezado\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicSchemaGrammarParser.h">
+      <Filter>Archivos de encabezado\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicContainer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="IdManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
